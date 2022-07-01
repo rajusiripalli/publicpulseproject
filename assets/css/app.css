@@ -3394,68 +3394,80 @@ svg {
 }
 
 #home_page #main_slider .banner_cntnt_wrp ul li .icon #web {
-    width: 54px
+    width: 100px;
+    height: 100px;
 }
 
 @media only screen and (min-width: 1441px) {
     #home_page #main_slider .banner_cntnt_wrp ul li .icon #web {
-        width: 60px
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
     #home_page #main_slider .banner_cntnt_wrp ul li .icon #web {
-        width: 48px
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media only screen and (max-width: 576px) {
     #home_page #main_slider .banner_cntnt_wrp ul li .icon #web {
-        width: 40px
+        width: 80px;
+        height: 80px;
     }
 }
 
 #home_page #main_slider .banner_cntnt_wrp ul li .icon #app {
-    width: 30px
+    width: 100px;
+    height: 100px;
 }
 
 @media only screen and (min-width: 1441px) {
     #home_page #main_slider .banner_cntnt_wrp ul li .icon #app {
-        width: 33px
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
     #home_page #main_slider .banner_cntnt_wrp ul li .icon #app {
-        width: 26px
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media only screen and (max-width: 576px) {
     #home_page #main_slider .banner_cntnt_wrp ul li .icon #app {
-        width: 22px
+        width: 80px;
+        height: 80px;
     }
 }
 
 #home_page #main_slider .banner_cntnt_wrp ul li .icon #digital {
-    width: 54px
+    width: 100px;
+    height: 100px;
 }
 
 @media only screen and (min-width: 1441px) {
     #home_page #main_slider .banner_cntnt_wrp ul li .icon #digital {
-        width: 60px
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
     #home_page #main_slider .banner_cntnt_wrp ul li .icon #digital {
-        width: 48px
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media only screen and (max-width: 576px) {
     #home_page #main_slider .banner_cntnt_wrp ul li .icon #digital {
-        width: 45px
+        width: 80px;
+        height: 80px;
     }
 }
 
