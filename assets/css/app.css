@@ -28133,3 +28133,7 @@ footer #copyright .terms a:not(:last-of-type)::after {
     margin: 15% 30% 10%;
 }
 /*# sourceMappingURL=app.css.map */
+
+#serviceimgs {
+    border-radius: 50%;
+}
