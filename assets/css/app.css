@@ -715,7 +715,9 @@ svg {
 }
 
 .slick-slider .slick-slide img {
-    display: block
+    display: block;
+    border-radius: 10px;
+
 }
 
 .slick-slider .slick-slide.slick-loading img {
@@ -5500,7 +5502,7 @@ svg {
 }
 
 #home_page #we_are_capable .wrap_lft {
-    background: url("../images/we_capable.webp") no-repeat left center;
+    background: url("../images/slidersimgs/Voters-Image.jpg") no-repeat left center;
     background-size: cover;
     width: 50%;
     height: 100%;
@@ -5510,11 +5512,11 @@ svg {
     z-index: 0
 }
 
-@media (max-width: 1441px) and (min-width: 1200px) {
+/* @media (max-width: 1441px) and (min-width: 1200px) {
     #home_page #we_are_capable .wrap_lft {
         background: url("../images/we_capable.webp") no-repeat left -270px center
     }
-}
+} */
 
 @media (max-width: 992px) and (min-width: 576px) {
     #home_page #we_are_capable .wrap_lft {
@@ -5590,7 +5592,7 @@ svg {
 }
 
 #home_page #we_are_capable .wrap_rit {
-    background: url("../images/we_capable.webp") no-repeat left center;
+    background: url("../images/slidersimgs/Voters-Image.jpg") no-repeat left center;
     background-size: cover;
     width: 25%;
     height: 358px;
@@ -7743,7 +7745,7 @@ svg {
 
 @media only screen and (min-width: 468px) {
     #home_page #HappYClients .clients_slide .img_box {
-        filter: grayscale(1)
+        filter: grayscale(0)
     }
 }
 
