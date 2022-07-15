@@ -10825,15 +10825,15 @@ if (controler == 'services') {
 $(window).on('load', function() {
     var session = '0';
     if (session < 2) {
-        setTimeout(function() {
-            $('#consultPop').toggleClass('is-visible');
-            $('body').addClass('notLoaded');
-        }, 20000);
+        // setTimeout(function() {
+            // $('#consultPop').toggleClass('is-visible');
+            // $('body').addClass('notLoaded'); 
+        // }, 20000);
     }
 
     $('.modalClose').click(function() {
-        $('#consultPop').removeClass('is-visible');
-        $('body').removeClass('notLoaded');
+        // $('#consultPop').removeClass('is-visible');
+        // $('body').removeClass('notLoaded');
         session++;
         $.ajax({
             type: "POST",
@@ -10844,10 +10844,10 @@ $(window).on('load', function() {
             success: function(data) {}
         });
         if (session < 2) {
-            setTimeout(function() {
-                $('#consultPop').toggleClass('is-visible');
-                $('body').addClass('notLoaded');
-            }, 15000);
+            // setTimeout(function() {
+                // $('#consultPop').toggleClass('is-visible');
+                // $('body').addClass('notLoaded');
+            // }, 15000);
         }
     });
 
